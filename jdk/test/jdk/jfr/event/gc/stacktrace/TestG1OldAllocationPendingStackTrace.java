@@ -30,8 +30,13 @@ package jdk.jfr.event.gc.stacktrace;
  *
  *
  *
+<<<<<<< HEAD
  * @library /lib /
  * @run main/othervm -XX:MaxNewSize=10M -Xmx100M -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGC jdk.jfr.event.gc.stacktrace.TestG1OldAllocationPendingStackTrace
+=======
+ * @library /test/lib /
+ * @run main/othervm -XX:MaxNewSize=10M -Xmx128M -XX:+UseG1GC -XX:+PrintGCDetails -XX:+PrintGC jdk.jfr.event.gc.stacktrace.TestG1OldAllocationPendingStackTrace
+>>>>>>> merge_repo/master
  */
 public class TestG1OldAllocationPendingStackTrace {
 
